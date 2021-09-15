@@ -11,8 +11,8 @@ uint16_t SENSE_ADC(uint8_t channel)
 {
     //Select ADC Channel(channel_0) which must be from 0-7
     ADMUX&=0xf8;
-    channel=channel&0b00000111;
-    ADMUX|=channel;
+    ch=ch&0b00000111;
+    ADMUX|=ch;
 
     //start single Conversion
     ADCSRA|=(1<<ADSC);
@@ -63,7 +63,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         LCD_String(start);
         LCD_Command(0xC0);
         LCD_String(Temp);
-        _delay_ms(20);
+        _delay_ms(40);
     }
     else if((ADC_READING>=501) && (ADC_READING<=700)){
 
@@ -77,7 +77,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         LCD_String(start);
         LCD_Command(0xC0);
         LCD_String(Temp);
-        _delay_ms(20);
+        _delay_ms(40);
     }
     else if((ADC_READING>=701) && (ADC_READING<=1024)){
 
@@ -91,7 +91,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         LCD_String(start);
         LCD_Command(0xC0);
         LCD_String(Temp);
-        _delay_ms(20);
+        _delay_ms(40);
     }
     else{
         OCR1A = 0; //0% output
@@ -104,7 +104,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         LCD_String(start);
         LCD_Command(0xC0);
         LCD_String(Temp);
-        _delay_ms(20);
+        _delay_ms(40);
     }
 
 }
