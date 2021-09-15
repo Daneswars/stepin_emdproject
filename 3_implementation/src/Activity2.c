@@ -8,13 +8,13 @@ void LCD_Command( unsigned char cmnd )
 	_delay_us(1);
 	LCD_Port &= ~ (1<<EN);
 
-	_delay_us(200);
+	_delay_us(1000);
 
 	LCD_Port = (LCD_Port & 0x0F) | (cmnd << 4);  /* sending lower nibble */
 	LCD_Port |= (1<<EN);
-	_delay_us(1);
+	_delay_us(2);
 	LCD_Port &= ~ (1<<EN);
-	_delay_ms(2);
+	_delay_ms(3);
 }
 
 
@@ -23,16 +23,16 @@ void LCD_Char( unsigned char data )
 	LCD_Port = (LCD_Port & 0x0F) | (data & 0xF0); /* sending upper nibble */
 	LCD_Port |= (1<<RS);		/* RS=1, data reg. */
 	LCD_Port|= (1<<EN);
-	_delay_us(1);
+	_delay_us(2);
 	LCD_Port &= ~ (1<<EN);
 
-	_delay_us(200);
+	_delay_us(1000);
 
 	LCD_Port = (LCD_Port & 0x0F) | (data << 4); /* sending lower nibble */
 	LCD_Port |= (1<<EN);
-	_delay_us(1);
+	_delay_us(2);
 	LCD_Port &= ~ (1<<EN);
-	_delay_ms(2);
+	_delay_ms(3);
 }
 
 void LCD_Init (void)			/* LCD Initialize function */
