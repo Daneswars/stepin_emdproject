@@ -16,10 +16,10 @@ int main(void)
     {
         if(SEAT_CHECK)
         {
-            PORTD|=(1<<PD2);
+            PORTD|=(1<<PD3);
             if(HEATER_ON){
                 LED_ON;
-                _delay_ms(200);
+                _delay_ms(1000);
                 LCD_Clear();
                 temp=SENSE_ADC(0);
                 PWM_OUPUT(temp);
@@ -28,17 +28,17 @@ int main(void)
             else
                 {
                     LED_OFF;
-                     _delay_ms(200);
+                     _delay_ms(1000);
                     HEATER_OFF;
-                    _delay_ms(200);
+                    _delay_ms(1000);
                     LCD_Clear();
                 }
         }
         else{
             LED_OFF;
-            _delay_ms(200);
+            _delay_ms(1000);
             HEATER_OFF;
-            _delay_ms(200);
+            _delay_ms(1000);
             LCD_Clear();
         }
     }
