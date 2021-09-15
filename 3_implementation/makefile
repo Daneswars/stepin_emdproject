@@ -45,9 +45,9 @@ analysis: $(SRC)
 
 doc:
 # Build the code code documentation using Doxygen command line utility
-	make -C 3_implementatiom
+	make -C 3_implementation
 
 clean:
 # Remove all the build files and generated document files
 	rm -rf $(call FixPath,$(BUILD_DIR)/*)
-	make -C 3_implementatiom clean
+	make -C 3_implementation clean
