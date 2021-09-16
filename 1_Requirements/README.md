@@ -32,6 +32,7 @@ monitoring the passanger's existance and Heat Monitoring and Displaying.
 
 ### Threats
 - Not suitable for average or high temperature environment.
+ 
 
 # 4W's and 1'H
 - **WHAT** : Passanger Seat and Heat Monitoring System.
@@ -39,4 +40,20 @@ monitoring the passanger's existance and Heat Monitoring and Displaying.
 - **WHEN** : At low temperature.
 - **WHY** : For being healthy.
 - **HOW** : Operates by modifying the temperature.
+- ## Detail requirements
+### High Level Requirements
+| High Level Requirements      | Description |
+| ----------- | ----------- |
+| HLR1      | Microcontroller   |
+| HLR2   | Temperature Sensor|
+| HLR3   | Heat Generation|
+ | HLR4    | Software used|
+### Low Level Requirements
+| Low Level Requirements      | Description |
+| ----------- | ----------- |
+| HLR1_LLR1      | ATmega328     |
+| HLR2_LLR2   | LM35 and ADC|
+| HLR3_LLR3   | Thermoelectric module|
+| HLR4_LLR4   | Code Blocks with AVR GCC compiler |
+| HLR4_LLR4   | SimulIDE |
 
