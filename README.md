@@ -18,9 +18,9 @@ The Passenger Seat Heat Monitoring System is capable of maintaining of heat in t
 ## Contributors List and Summary
 
 PS Id. |  Name                   | No.  |  Features                          |Test Pass
--------|------------------------ |------|------------------------------------  |-------------|--------------
-`99006233` | Danesh R            |1.    |Finded out the is person seated     | yes    
-`99006233` | Danesh R             |2.    |finded out the temperature request| yes  
-`99006233` | Danesh R            |3.    |Cheacked different temp value| yes    
-`99006233` | Danesh R             |4.    |check led on and off | yes         
-`99006233` | Danesh R             |5.    |the themperature is displed in led disply |yes      
+-------|------------------------ |------|------------------------------------  |-------------|
+`99006233` | Danesh R            |1.    |Finded out the is person seated     | yes    |
+`99006233` | Danesh R             |2.    |finded out the temperature request| yes  |
+`99006233` | Danesh R            |3.    |Cheacked different temp value| yes    |
+`99006233` | Danesh R             |4.    |check led on and off | yes         |
+`99006233` | Danesh R             |5.    |the themperature is displed in led disply |yes|      
