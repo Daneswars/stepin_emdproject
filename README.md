@@ -3,6 +3,7 @@
 ## COSE STATS
 Build | Cppcheck | Code Quality |
 ------|----------|----------------|
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5383d271ad0b4eecb1c46aff42bba477)](https://app.codacy.com/gh/Daneswars/stepin_emdproject?utm_source=github.com&utm_medium=referral&utm_content=Daneswars/stepin_emdproject&utm_campaign=Badge_Grade_Settings)
 |[![Compile-Linux](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml)|
 
 ## HEAT_MONITORINTG
