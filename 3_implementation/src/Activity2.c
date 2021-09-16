@@ -1,4 +1,4 @@
-#include "Activity2.h"
+#include "activity2.h"
 
 void LCD_Command( unsigned char cmnd )
 {
