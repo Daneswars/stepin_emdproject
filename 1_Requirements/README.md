@@ -11,11 +11,10 @@ In our project the main aim is to design and develop the system which is capable
 monitoring the passanger's existance and Heat Monitoring and Displaying.
 
 ## Features
-- Its capable of determining weather the user is exist or not in the vehicle.
-- If Passanger was existed in the vehicle it will gives the indication.
+- Its capable of determining weather the user is seated or not in the vehicle.
+- If Passanger was seated in the vehicle it will gives the indication.
 - After the indication it will determine the heat.
 - Driver and the passanger can have the access to modifying the temperature in the vehicle.
-- The passanger can modify the temperature by watching the display as the display is given in the system
 - Modular Based Programming.
 
 ## SWOT Analysis- Strengths, and Weakness, Opportunities Threats
