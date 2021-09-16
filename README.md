@@ -2,7 +2,7 @@
 ## COSE STATS!
 Build | Cppcheck | Code Quality |
 ------|----------|----------------|
-      |[![Cppcheck](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml)|
+      ||
 
 
 ## HEAT_MONITORINTG
