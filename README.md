@@ -23,4 +23,4 @@ PS Id. |  Name                   | No.  |  Features                          |Te
 `99006233` | Danesh R             |2.    |finded out the temperature request| yes  |
 `99006233` | Danesh R            |3.    |Cheacked different temp value| yes    |
 `99006233` | Danesh R             |4.    |check led on and off | yes         |
-`99006233` | Danesh R             |5.    |the themperature is displed in led disply |yes|      
+`99006233` | Danesh R             |5.    |the temperature is displed in led disply |yes|      
