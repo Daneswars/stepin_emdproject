@@ -2,7 +2,7 @@
 
 ## COSE STATS
 
-[![code quality]https://www.code-inspector.com/project/28772/score/svg
+[![code quality](https://www.code-inspector.com/project/28772/score/svg)
 --------------------------------------------------------------------------------------------------------------------
 
 
