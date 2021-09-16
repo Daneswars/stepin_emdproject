@@ -1,29 +1,31 @@
-PROJ_NAME = activity
+ PROJ_NAME = Tempertature_Monitoring
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/Act1.c
+src/Activity1.c\
+src/Activity2.c\
+src/Activity3.c
 
 # All header file paths
 INC = -I inc
 
-# Find out the OS and configure the variables accordingly
-ifdef OS	# All configurations for Windwos OS
+# Configuring for Both Windows and Linux Operating System
+ifdef OS	# Windwos OS
 # Correct the path based on OS
    FixPath = $(subst /,\,$1)
-# Name of the compiler used
+# AVR Compiler
    CC = avr-gcc.exe
-# Name of the elf to hex file converter used
+# .elf to .hex
    AVR_OBJ_CPY = avr-objcopy.exe
-else #All configurations for Linux OS
+else # Linux OS
    ifeq ($(shell uname), Linux)
-# Correct the path based on OS
+# Correct the path based on Linux
       FixPath = $1				
-# Name of the compiler used
+# AVR Compiler
 	  CC = avr-gcc
-# Name of the elf to hex file converter used
+# N.elf to .hex
 	  AVR_OBJ_CPY = avr-objcopy 
    endif
 endif
@@ -45,9 +47,9 @@ analysis: $(SRC)
 
 doc:
 # Build the code code documentation using Doxygen command line utility
-	make -C 3_implementation
+	make -C documentation
 
 clean:
 # Remove all the build files and generated document files
 	rm -rf $(call FixPath,$(BUILD_DIR)/*)
-	make -C 3_implementation clean
+	make -C documentation clean
