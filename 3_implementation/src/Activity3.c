@@ -7,7 +7,7 @@ void ADC_INITIALIZATION()
     ADCSRA=(1<<ADEN)|(7<<ADPS0);
 }
 
-uint16_t SENSE_ADC(uint8_t channel)
+uint16_t SENSE_ADC(uint8_t ch)
 {
     //Select ADC Channel(channel_0) which must be from 0-7
     ADMUX&=0xf8;
