@@ -1,5 +1,6 @@
 # stepin_emdproject
 ## COSE STATS!
+[![quality]https://frontend.code-inspector.com/public/user/github/Daneswars
 Build | Cppcheck | Code Quality |
 ------|----------|----------------|
 |[![Compile-Linux](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml)|
