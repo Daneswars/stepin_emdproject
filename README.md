@@ -2,7 +2,7 @@
 ## COSE STATS!
 Build | Cppcheck | Code Quality |
 ------|----------|----------------|
-      ||
+|      |[![Compile-Linux](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml)|
 
 
 ## HEAT_MONITORINTG
