@@ -1,6 +1,13 @@
 # stepin_emdproject
 
 ## COSE STATS
+
+[![code quality]https://www.code-inspector.com/project/28772/score/svg
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+
 Build | Cppcheck | Code Quality |
 ------|----------|----------------|
 |[![Compile-Linux](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Daneswars/stepin_emdproject/actions/workflows/CodeQulaity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b7bfa58f68ec44f7b7a3f94c46fc9166)](https://www.codacy.com/gh/Daneswars/stepin_emdproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Daneswars/stepin_emdproject&amp;utm_campaign=Badge_Grade)|
