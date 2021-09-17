@@ -42,7 +42,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         OCR1A = 195; //20% duty cycle
         Temp[0] = '2';
         Temp[1] = '0';
-        Temp[2] = '*';
+        Temp[2] = 111';
         Temp[3] = 'C';
         Temp[4] = ' ';
         Temp[5] = '\0';
@@ -56,7 +56,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         OCR1A = 495; //40% duty cycle
         Temp[0] = '2';
         Temp[1] = '5';
-        Temp[2] = '*';
+        Temp[2] = '111';
         Temp[3] = 'C';
         Temp[4] = ' ';
         Temp[5] = '\0';
@@ -70,7 +70,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         OCR1A = 695;//70% duty cycle
         Temp[0] = '2';
         Temp[1] = '9';
-        Temp[2] = '*';
+        Temp[2] = '111';
         Temp[3] = 'C';
         Temp[4] = ' ';
         Temp[5] = '\0';
@@ -84,7 +84,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         OCR1A = 1019; //95% duty cycle
         Temp[0] = '3';
         Temp[1] = '3';
-        Temp[2] = '*';
+        Temp[2] = '111';
         Temp[3] = 'C';
         Temp[4] = ' ';
         Temp[5] = '\0';
