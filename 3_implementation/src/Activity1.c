@@ -7,7 +7,7 @@ void SEAT_CHECKING(){
     DDRD&=~(1<<PD1); //Clear bit
     PORTD|=(1<<PD1); //Set bit
 
-while(1)
+/*while(1)
     {
         if  ( (!(PIND & (1<<PD0))) & (!(PIND & (1<<PD1))) )
     {
@@ -20,6 +20,6 @@ while(1)
         _delay_ms(200);
     }
     }
-    return 0;
+    return 0;*/
 }
 
