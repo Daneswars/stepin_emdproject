@@ -42,7 +42,7 @@ void PWM_OUPUT(uint16_t ADC_READING){
         OCR1A = 195; //20% duty cycle
         Temp[0] = '2';
         Temp[1] = '0';
-        Temp[2] = 111';
+        Temp[2] = '111';
         Temp[3] = 'C';
         Temp[4] = ' ';
         Temp[5] = '\0';
